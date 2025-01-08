@@ -1,0 +1,29 @@
+message MessageA {
+  required TypeX field_a = 1;
+  required TypeY field_b = 2;
+  required TypeZ field_c = 3;
+  required TypeW field_d = 4;
+  required TypeV field_e = 5;
+  optional int64 field_f = 6;
+  optional int64 field_g = 7;
+}
+
+message MessageB {
+  required string field_h = 1;
+  required int64 field_i = 2; // timestamp note
+
+  required string field_j = 3;
+  required string field_k = 4;
+  required int64 field_l = 5; // another timestamp note
+
+  required string field_m = 6;
+  message SubMessage {
+    required string field_n = 1;
+    message NestedMessage {
+      required string field_o = 1;
+      required string field_p = 2;
+    }
+    repeated NestedMessage field_q = 2;
+  }
+  repeated SubMessage field_r = 7;
+}
