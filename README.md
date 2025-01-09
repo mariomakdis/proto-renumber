@@ -1,4 +1,4 @@
-# ProtoRenumber
+# proto-renumber
 
 A CLI tool to automatically renumber field tags in your Protocol Buffer files.
 
