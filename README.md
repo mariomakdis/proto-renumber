@@ -21,5 +21,5 @@ go install github.com/mariomakdis/proto-renumber@latest
 ## Usage
 
 ```bash
-proto-renumber [--replace] path/to/file.proto
+proto-renumber [--ignore] MessageA,NestedMessage [--replace] path/to/file.proto
 ```
