@@ -15,7 +15,7 @@ Results
 
 ## Installation
 ```
-go install github.com/mariomakdis/proto-renumber@latest
+go install github.com/mariomakdis/proto-renumber@v1.1.0
 ```
 
 ## Usage
